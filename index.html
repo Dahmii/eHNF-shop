@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Planner Store</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/easy-favicon.png">
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="main-layout">
+      <nav class="navbar">
+        <section class="navbar__left">
+          <img src="assets/img/easyhnf-logo-light.png" alt="easyhnf logo">
+            <path
+              d="M17.126.842H1.003C.456.842 0 1.298 0 1.845v1.797c0 .56.456 1.003 1.003 1.003h16.123c.56 0 1.003-.456 1.016-1.003V1.858c0-.56-.456-1.016-1.016-1.016z"
+              fill="#ffffff"
+            ></path>
+          </svg>
+        </section>
+        <section class="navbar__center">
+          <h3 class="navbar-title">Meal Planner</h3>
+          <h4 class="navbar-merchant-name">
+            By Easy Health Nutrition & Fitness
+          </h4>
+        </section>
+        <section class="navbar__right">
+          <div class="bagicon">
+            <svg
+              class="bagicon__icon"
+              width="22"
+              height="25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.996 23.67L20.102 7.343a1.19 1.19 0 00-.395-.754 1.208 1.208 0 00-.8-.303H13.71v2.317a2.31 2.31 0 01-.684 1.64 2.346 2.346 0 01-3.306 0 2.31 2.31 0 01-.684-1.64V6.285H3.844c-.296 0-.58.108-.801.303a1.19 1.19 0 00-.394.754L.758 23.671a1.185 1.185 0 00.297.93 1.201 1.201 0 00.898.399h18.844a1.21 1.21 0 00.9-.397 1.19 1.19 0 00.299-.932z"
+                fill="#ffffff"
+              ></path>
+            </svg>
+          </div>
+        </section>
+      </nav>
+
+      <div class="container">
+        <div class="input-search-wrapper">
+          <svg
+            class="input-search-icon"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M17.5 17.4999L13.875 13.8749"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+          <input
+            type="input"
+            class="input-search"
+            placeholder="Search for a product"
+          />
+        </div>
+
+        <div class="columns">
+          <div class="product-column" data-testid="product-1910359">
+            <div
+              class="product"
+              data-name="PREORDER SPECIAL -- 52 weeks meal planner"
+              data-price="8,500"
+              data-description="Get the ultimate 52 Weeks Meal Planner at a special preorder price of ₦8,500 (instead of ₦10,000)!
+
+              Take control of your meals with this comprehensive planner designed to help you stay consistent with healthy eating, meal prepping, and budgeting.
+              
+              Limited-time offer! Preorder now before April 7th to enjoy the discount. Price returns to ₦10,000 after the deadline."
+              data-payment-link="https://paystack.com/buy/52-weeks-meal-planner-lklqur"
+            >
+              <div class="product__media-container">
+                <img
+                  src="assets/img/Group 3.jpg"
+                  class="product-view__media--img"
+                />
+              </div>
+              <div class="product__details">
+                <div class="product__details__name">
+                  <span>PREORDER SPECIAL -- 52 weeks meal planner</span>
+                </div>
+                <div class="product__details__price">
+                  <s>NGN 10,000</s> NGN 8,500
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-column" data-testid="product-1910361">
+            <div
+              class="product"
+              data-name="PREORDER SPECIAL EBOOK! -- 52 weeks meal planner"
+              data-price="7,250"
+              data-description="Enjoy a special preorder discount on the 52 Weeks Meal Planner (Ebook)! Get it now for ₦7,250 instead of ₦8,500 when you order before April 7th.
+
+              This digital planner is designed to help you stay consistent with meal planning, save time, and maintain a healthy lifestyle.
+              
+              Preorder now before April 7th to enjoy this discount! Price returns to ₦8,500 after the deadline."
+              data-payment-link="https://paystack.com/buy/ebook-52-weeks-meal-planner-cbnpux">
+              <div class="product__media-container">
+                <img
+                  src="assets/img/Group 1.jpg"
+                  class="product-view__media--img"
+                />
+              </div>
+              <div class="product__details">
+                <div class="product__details__name">
+                  <span>PREORDER SPECIAL EBOOK! -- 52 weeks meal planner</span>
+                </div>
+                <div class="product__details__price">
+                  <s>NGN 8,500</s> NGN 7,250
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Modal -->
+      <div class="product-modal">
+        <div class="product-modal-content">
+          <img class="product-modal-image" src="" alt="Product Image" />
+          <h2 class="product-modal-title"></h2>
+          <p class="product-modal-price"></p>
+          <p class="product-modal-description"></p>
+          <a href="#" class="pay-button" target="_blank">Proceed to Payment</a>
+          <button
+            class="close-modal-btn"
+            style="
+              margin-top: 10px;
+              background: none;
+              border: none;
+              color: white;
+              cursor: pointer;
+            "
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".product").forEach((product) => {
+        product.addEventListener("click", function () {
+          const modal = document.querySelector(".product-modal");
+          const modalImage = modal.querySelector(".product-modal-image");
+          const modalTitle = modal.querySelector(".product-modal-title");
+          const modalPrice = modal.querySelector(".product-modal-price");
+          const modalDescription = modal.querySelector(
+            ".product-modal-description"
+          );
+          const payButton = modal.querySelector(".pay-button");
+
+          // Get product details
+          const image = this.querySelector("img").src;
+          const name = this.getAttribute("data-name");
+          const price = this.getAttribute("data-price");
+          const description = this.getAttribute("data-description");
+          const paymentLink = this.getAttribute("data-payment-link");
+
+          // Set modal content
+          modalImage.src = image;
+          modalTitle.textContent = name;
+          modalPrice.textContent = `Price: NGN ${price}`;
+          modalDescription.textContent = description;
+          payButton.href = paymentLink;
+
+          // Show modal
+          modal.classList.add("show");
+        });
+      });
+
+      // Close modal
+      document
+        .querySelector(".close-modal-btn")
+        .addEventListener("click", function () {
+          document.querySelector(".product-modal").classList.remove("show");
+        });
+
+      // Close modal when clicking outside
+      document
+        .querySelector(".product-modal")
+        .addEventListener("click", function (e) {
+          if (e.target === this) {
+            this.classList.remove("show");
+          }
+        });
+    </script>
+  </body>
+</html>
